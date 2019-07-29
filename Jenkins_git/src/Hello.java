@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.Date;
 
 public class Hello {
@@ -10,6 +11,8 @@ public class Hello {
 			System.out.println("Hello world  "+i);
 		}
 		System.out.println("changes made " +new Date().getTime());
+		System.out.println(new File(".").getAbsolutePath());
+		
 
 	}
 
