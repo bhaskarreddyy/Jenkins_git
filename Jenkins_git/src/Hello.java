@@ -8,11 +8,11 @@ public class Hello {
 		
 		for(int i=0;i<10;i++)
 		{
-			System.out.println("Hello world  "+i);
+			System.out.println("Hello world  "+i);  
 		}
 		System.out.println("changes made " +new Date().getTime());
 		System.out.println(new File(".").getAbsolutePath());
-		
+		System.out.println("Git push testing");
 
 	}
 
